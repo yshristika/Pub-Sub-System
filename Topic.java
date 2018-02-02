@@ -1,6 +1,5 @@
 /**
  * Topic.java
- * author - Shristika yadav
  */
 import java.util.*;
 
