@@ -9,14 +9,15 @@ Publish subscribe system is a messaging pattern where subscribers have the abili
 4. Subscriber 
 5. Event
 
-##### EventManager - This class interacts with all the subscriber and publisher and handles all the requests and message passing between pub and sub. The server side coding is written in this class.
+EventManager - This class interacts with all the subscriber and publisher and handles all the requests and message passing between pub and sub. The server side coding is written in this class.
+
 PubSubAgent - This class when implemented will act as either a publisher or a subscriber. The client side code is written in this class.
 
-##### Topic - In this class, we add all the topics under which publisher can publish an article. It consist of an ArrayList which already contains some topics and more can be added, if the publisher wishes.
+Topic - In this class, we add all the topics under which publisher can publish an article. It consist of an ArrayList which already contains some topics and more can be added, if the publisher wishes.
 
-##### Subscriber - In this class, a new subscribers port no, an unique ID and the topics list to which the subscriber has subscribed is added. The subscribed topic list is added in an ArrayList. The subscribing and unsubscribing both are done from this arrayList itself.
+Subscriber - In this class, a new subscribers port no, an unique ID and the topics list to which the subscriber has subscribed is added. The subscribed topic list is added in an ArrayList. The subscribing and unsubscribing both are done from this arrayList itself.
 
-##### Event - This class is used to store the article which has been published. It stores the title, topic, content and an unique ID given to each article.
+Event - This class is used to store the article which has been published. It stores the title, topic, content and an unique ID given to each article.
 
 ### Implementation
 
