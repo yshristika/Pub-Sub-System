@@ -1,6 +1,5 @@
 /**
  * Subscriber.java
- * author - Shristika yadav
  */
 public class Event {
 	int id=0;
