@@ -1,6 +1,5 @@
 /**
  * PubSubAgent.java
- * author - Shristika yadav
  */
 import java.io.*;
 import java.net.InetAddress;
